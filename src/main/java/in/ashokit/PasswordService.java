@@ -40,5 +40,10 @@ public class PasswordService {
 	    
         }
 	
-
+	public void process() {
+       //logic
+		
+		
 }
+	
+}	
