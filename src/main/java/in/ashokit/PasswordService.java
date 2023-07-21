@@ -34,7 +34,7 @@ public class PasswordService {
 
 	}
 	
-	public void m1(){
+	public void m2(){
 	    //logic
 	    
 	    
