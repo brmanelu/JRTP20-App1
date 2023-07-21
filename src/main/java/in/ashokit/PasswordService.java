@@ -32,5 +32,11 @@ public class PasswordService {
 
 	}
 	
+	public void m1(){
+	    //logic
+	    
+	    
+        }
+	
 
 }
