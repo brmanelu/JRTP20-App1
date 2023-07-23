@@ -18,7 +18,10 @@ public class PasswordService {
     }
 	
 	public static String decode(String encodeTxt) {
-		
+		//Fixes bug-121
+		String name = "Moni";
+		int k = 30;
+	
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodeTxt);
 		return new String(decode);
