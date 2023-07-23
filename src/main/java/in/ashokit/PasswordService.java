@@ -34,16 +34,5 @@ public class PasswordService {
 
 	}
 	
-	public void m2(){
-	    //logic
-	    
-	    
-        }
-	
-	public void process() {
-       //logic
-		
-		
-}
-	
+
 }	
