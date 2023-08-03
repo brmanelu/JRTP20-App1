@@ -8,8 +8,9 @@ public class PasswordService {
 
 
 	public static String encode(String txt) {
-		
-		
+		// Bug Id : 101
+		int i = 10;
+		int j = 20;
 		Encoder encoder = Base64.getEncoder();
 		return encoder.encodeToString(txt.getBytes());
 		
